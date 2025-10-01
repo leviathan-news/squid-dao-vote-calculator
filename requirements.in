@@ -1,0 +1,6 @@
+mamushi
+black
+isort
+flake8
+pytest
+pytest-cov
