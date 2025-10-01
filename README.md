@@ -2,7 +2,7 @@
 
 > **Signal vote caps at 8 tokens, Squid has too many tentacles**
 
-A Vyper smart contract that aggregates voting power across Curve, Convex, and Stake DAO for the [https://snapshot.box/#/s:leviathannews.eth](Squid DAO) governance system. Unlike Snapshot's 8-token limit, this contract supports **9 tentacles** worth of token sources, providing comprehensive voting power calculation.
+A Vyper smart contract that aggregates voting power across Curve, Convex, and Stake DAO for the [Squid DAO](https://snapshot.box/#/s:leviathannews.eth) governance system. Unlike Snapshot's 8-token limit, this contract supports **9 tentacles** worth of token sources, providing comprehensive voting power calculation.
 
 ## 🚀 Deployment
 
