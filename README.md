@@ -1,6 +1,6 @@
 # Squid DAO Vote Calculator 🦑🧮
 
-![Uploading image.png…]()
+<img width="1561" height="1024" alt="image" src="https://github.com/user-attachments/assets/b7b6dbb7-3ca2-4bb7-abde-c6f0ae701b90" />
 
 > **Signal vote caps at 8 tokens, Squid has too many tentacles**
 
