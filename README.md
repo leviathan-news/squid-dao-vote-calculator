@@ -1,4 +1,4 @@
-# 🦑 Squid DAO Vote Calculator
+# Squid DAO Vote Calculator 🦑🧮
 
 > **Signal vote caps at 8 tokens, Squid has too many tentacles**
 
@@ -10,43 +10,43 @@ A Vyper smart contract that aggregates voting power across Curve, Convex, and St
 **Network**: Fraxtal Mainnet  
 **Explorer**: [Fraxtal Scan](https://fraxscan.com/address/0xa3059E86548a4720AD28c881B701c6f02120164a)
 
-## 🦑 The Nine-Tentacled Squid
+## 👾 The Nine-Tentacled Squid
 
 This contract aggregates voting power from **9 different token sources**:
 
-### 🦑🛀 Tentacle 1: Naked SQUID
+### 🛀 Tentacle 1: Naked SQUID
 - **Raw, uncensored SQUID token holdings**
 - **Address**: [`0x6e58089d8E8f664823d26454f49A5A0f2fF697Fe`](https://fraxscan.com/address/0x6e58089d8E8f664823d26454f49A5A0f2fF697Fe)
 
-### 🦑💎 Tentacle 2: SQUID/ETH LP (Curve)
+### 🌈💎 Tentacle 2: SQUID/ETH LP (Curve)
 - **Curve pool liquidity provider tokens**
 - **Address**: [`0x277FA53c8a53C880E0625c92C92a62a9F60f3f04`](https://fraxscan.com/address/0x277FA53c8a53C880E0625c92C92a62a9F60f3f04)
 
-### 🦑💎 Tentacle 3: SQUID/ETH LP (Gauge)
+### 🏦💎 Tentacle 3: SQUID/ETH LP (Gauge)
 - **Curve gauge staked LP tokens**
 - **Address**: [`0xe5E5ed1B50AE33E66ca69dF17Aa6381FDe4e9C7e`](https://fraxscan.com/address/0xe5E5ed1B50AE33E66ca69dF17Aa6381FDe4e9C7e)
 
-### 🦑💎 Tentacle 4: SQUID/ETH LP (Convex)
+### 🦛💎 Tentacle 4: SQUID/ETH LP (Convex)
 - **Convex boosted LP positions**
 - **Address**: [`0x29FF8F9ACb27727D8A2A52D16091c12ea56E9E4d`](https://fraxscan.com/address/0x29FF8F9ACb27727D8A2A52D16091c12ea56E9E4d)
 
-### 🦑💎 Tentacle 5: SQUID/ETH LP (Stake DAO)
+### 🐘💎 Tentacle 5: SQUID/ETH LP (Stake DAO)
 - **Stake DAO boosted LP positions**
 - **Address**: [`0x8CDCDccAB3fC79c267B8361AdDAefD3aADaB9778`](https://fraxscan.com/address/0x8CDCDccAB3fC79c267B8361AdDAefD3aADaB9778)
 
-### 🦑🪶 Tentacle 6: SQUID/SQUILL LP (Curve)
+### 🌈🪶 Tentacle 6: SQUID/SQUILL LP (Curve)
 - **Curve pool liquidity provider tokens**
 - **Address**: [`0xb2B1458960E4d64716c8C472c114441A02fBA1De`](https://fraxscan.com/address/0xb2B1458960E4d64716c8C472c114441A02fBA1De)
 
-### 🦑🪶 Tentacle 7: SQUID/SQUILL LP (Gauge)
+### 🏦🪶 Tentacle 7: SQUID/SQUILL LP (Gauge)
 - **Curve gauge staked LP tokens**
 - **Address**: [`0x9bC291018e0434a21218A16005B0e198b4814ba8`](https://fraxscan.com/address/0x9bC291018e0434a21218A16005B0e198b4814ba8)
 
-### 🦑🪶 Tentacle 8: SQUID/SQUILL LP (Convex)
+### 🦛🪶 Tentacle 8: SQUID/SQUILL LP (Convex)
 - **Convex boosted LP positions**
 - **Address**: [`0x1CC03c1C714f767ca866A3Fa58c9153b1C087E85`](https://fraxscan.com/address/0x1CC03c1C714f767ca866A3Fa58c9153b1C087E85)
 
-### 🦑🪶 Tentacle 9: SQUID/SQUILL LP (Stake DAO)
+### 🐘🪶 Tentacle 9: SQUID/SQUILL LP (Stake DAO)
 - **Stake DAO boosted LP positions**
 - **Address**: [`0x9C1a1b52Bf2c42B6e7E2dCdAEF260b60386Ad76b`](https://fraxscan.com/address/0x9C1a1b52Bf2c42B6e7E2dCdAEF260b60386Ad76b)
 
@@ -55,13 +55,13 @@ This contract aggregates voting power from **9 different token sources**:
 ### DeFi Protocol Integration
 ```
 SquidDaoVote.vy
-├── 🦑🛀 Naked SQUID Tokens
-├── 🦑💎 SQUID/ETH LP Positions
+├── 🛀 Naked SQUID Tokens
+├── 💎 SQUID/ETH LP Positions
 │   ├── Curve Pool (0x277FA53c8a53C880E0625c92C92a62a9F60f3f04)
 │   └── Curve Gauge (0xe5E5ed1B50AE33E66ca69dF17Aa6381FDe4e9C7e)
 │   ├── Convex (0x29FF8F9ACb27727D8A2A52D16091c12ea56E9E4d)
 │   ├── Stake DAO (0x8CDCDccAB3fC79c267B8361AdDAefD3aADaB9778)
-└── 🦑🪶 SQUID/SQUILL LP Positions
+└── 🪶 SQUID/SQUILL LP Positions
     ├── Curve Pool (0xb2B1458960E4d64716c8C472c114441A02fBA1De)
     ├── Convex (0x1CC03c1C714f767ca866A3Fa58c9153b1C087E85)
     └── Stake DAO (0x9C1a1b52Bf2c42B6e7E2dCdAEF260b60386Ad76b)
